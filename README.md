@@ -6,10 +6,12 @@ The risk analysis may be perfromed at various levels with adjustments being made
 
 Exampe Output and Results:
 
-- Console Output:
+Console Output:
+
 ![image](https://user-images.githubusercontent.com/79239127/129264323-511bdd3c-5ba4-4abe-b0fc-e8d34a38ce68.png)
 
-- Plot Output:
+Plot Output:
+
 ![image](https://user-images.githubusercontent.com/79239127/129264431-36633c60-18c5-4e0c-8aec-0f731f2003bc.png)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
