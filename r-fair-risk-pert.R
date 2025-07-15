@@ -73,7 +73,7 @@ ale <- pale + sale
 # That's it! Now let's plot it. Need 'scales' to show commas on x-axis.
 library(scales)
 gg <- ggplot(data.frame(ale), aes(x = ale))
-gg <- gg + geom_histogram(aes(y = ..density..), color = "black", fill = "white", binwidth = 10000)
+gg <- gg + geom_histogram(aes(y = afer_stat(density)), color = "black", fill = "white", binwidth = 10000) #removed the dot-dot notation for density which has been deprecated
 gg <- gg + geom_density(fill = "steelblue", alpha = 1/3)
 gg <- gg + scale_x_continuous(labels = comma)
 gg <- gg + theme_bw()
